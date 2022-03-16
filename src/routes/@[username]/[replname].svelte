@@ -144,7 +144,7 @@
 				term.write(`\x1b[H\x1b[2J\x1b[3JError: ${res.errorMessage}`);
 				error = true;
 				if(res.errorMessage == "captcha") {
-					hcaptcha = await import('https://beplit.com/api/captcha.js');
+					hcaptcha = await import('/api/captcha.js');
 					
 				}
 				//@ts-ignore

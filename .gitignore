@@ -10,3 +10,4 @@ node_modules
 .output
 src/lib/crosis/node_modules
 src/lib/crosis/.git
+.replit
